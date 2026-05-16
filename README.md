@@ -1,6 +1,6 @@
 # Tower of Hanoi — ASCII Demo
 
-MIT RISC-V Porting Project · Mentor: Kurt Keville  
+MIT RISC-V Porting Project Coding Challenge · Mentor: Kurt Keville  
 Repository: [Hardware-Abstraction-Layer-Transitional-Libraries](https://github.com/clusterchallenge/Hardware-Abstraction-Layer-Transitional-Libraries)
 
 ---
