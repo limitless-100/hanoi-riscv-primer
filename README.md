@@ -42,10 +42,10 @@ canonical example used when teaching stack-frame behaviour on new ISAs.
 
 ```bash
 # default: 5 disks
-python3 hanoi.py
+PYTHONUTF8=1 python3 hanoi.py
 
 # custom disk count
-python3 hanoi.py 7
+PYTHONUTF8=1 python3 hanoi.py 7
 ```
 
 Requires Python 3.8+, a VT100-compatible terminal, and nothing else.
