@@ -8,8 +8,7 @@ Repository: [Hardware-Abstraction-Layer-Transitional-Libraries](https://github.c
 ## What it does
 
 An animated, in-place ASCII visualizer for the Tower of Hanoi puzzle, written
-in C++17 with double-precision arithmetic throughout — consistent with the
-project's HPC numerical requirements.
+in C++17 with double-precision arithmetic throughout.
 
 ```
      #####      |            |          move   31   A->C
