@@ -107,20 +107,6 @@ time qemu-riscv64 ./hanoi_riscv 20
 
 ---
 
-## RISC-V Relevance
-
-- **Stack pressure** — recursion depth equals disk count; call-frame overhead
-  is predictable and directly measurable under Spike or QEMU.
-- **Deterministic workload** — 2ⁿ − 1 moves every run; reliable for
-  cycle-accurate benchmarking on simulators or physical silicon.
-- **Compiler study** — diffing `-O0` vs `-O2` assembly output reveals how
-  `riscv64-unknown-elf-g++` handles recursive call-frame generation, directly
-  informing optimization decisions across the broader 400-code porting effort.
-- **Double precision** — `move_count` and `optimal` are `double`, keeping the
-  codebase consistent with HPC numerical conventions and supporting disk counts
-  beyond the 32-bit integer range.
-
----
 
 ## License
 
